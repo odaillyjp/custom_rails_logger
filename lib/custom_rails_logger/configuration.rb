@@ -8,5 +8,8 @@ module CustomRailsLogger
     def initialize
       @started_request_message_format = 'Started %m "%f" for %a at %t'
     end
+
+    def setting
+    end
   end
 end
